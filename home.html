@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230411190917">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<select name="form[]" class="header__select select-money _icon-arrow-down">
+					<option data-asset="img/header/bitcoin.png" value="1" selected>
+						~$21,822.74
+					</option>
+					<option data-asset="img/header/efir.png" value="2">~$1,218.31</option>
+					<option data-asset="img/header/t.png" value="3">~$0.9994</option>
+				</select>
+				<select name="form[]" class="header__select select-lang _icon-arrow-down">
+					<option data-asset="img/header/En.png" value="1" selected>
+						Eng
+					</option>
+					<option data-asset="img/header/Ru.png" value="2">Ru</option>
+				</select>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__main main">
+				<div class="main__container">
+					<!-- Оболочка слайдера -->
+					<div class="main__slider swiper">
+						<!-- Двигающееся часть слайдера -->
+						<div class="main__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="main__slide swiper-slide">
+								<a href="" class="swiper-slide__link">
+									<div class="swiper-slide__body">
+										<div data-swiper-parallax-opacity="0.2" data-swiper-parallax="-300" class="swiper-slide__title">About</div>
+										<div data-swiper-parallax-opacity="0.2" data-swiper-parallax="-500" data-swiper-parallax-y="300" class="swiper-slide__text">
+											<p>The project allows you to purchase unique objects and items. You can pay for all
+												properties using cryptocurrency
+												payments. We make it simple quickly and secure for you</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="main__slide swiper-slide">
+								<a href="" class="swiper-slide__link">
+									<div class="swiper-slide__body">
+										<div data-swiper-parallax-opacity="0.2" data-swiper-parallax="-300" class="swiper-slide__title">Premium</div>
+										<div data-swiper-parallax-opacity="0.2" data-swiper-parallax="-500" data-swiper-parallax-y="300" class="swiper-slide__text">
+											<p>After buying a property through our service you get private access to a privileged
+												club with the opportunity to purchase the rarely gems or art objects</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="main__slide swiper-slide">
+								<a href="" class="swiper-slide__link">
+									<div class="swiper-slide__body">
+										<div data-swiper-parallax-opacity="0.2" data-swiper-parallax="-300" class="swiper-slide__title">Residence permit</div>
+										<div data-swiper-parallax-opacity="0.2" data-swiper-parallax="-500" data-swiper-parallax-y="300" class="swiper-slide__text">
+											<p>We help in getting the residence permit of any countries through the purchase of
+												real estate on our service</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="main__slide swiper-slide">
+								<a href="" class="swiper-slide__link">
+									<div class="swiper-slide__body">
+										<div data-swiper-parallax-opacity="0.2" data-swiper-parallax="-300" class="swiper-slide__title">Make an enquire</div>
+										<div data-swiper-parallax-opacity="0.2" data-swiper-parallax="-500" data-swiper-parallax-y="300" class="swiper-slide__text">
+											<p>You can make an request for any question or suggestion. Our experts will contact you
+												asap</p>
+										</div>
+										<div class="swiper-slide__get">get in touch</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<!-- Если нужна пагинация -->
+						<div class="swiper-pagination pagination"></div>
+					</div>
+				</div>
+			</div>
+			<div class="page__products products">
+				<div class="products__container">
+					<div data-tabs class="tabs">
+						<div class="tabs__nav">
+							<div data-popup="#popup" class="products__filters">
+								<button type="button" class="products__filter _icon-icons">Filter</button>
+								<button type="button" class="products__mobilefilter">Filter</button>
+							</div>
+
+							<div class="products__subtabs subtabs">
+								<button type="button" class="subtabs__button subtabs__button_active">All</button>
+								<button type="button" class="subtabs__button">Sell</button>
+								<button type="button" class="subtabs__button">Rent</button>
+							</div>
+							<nav data-tabs-titles class="products__tabs tabs__navigation">
+								<button data-filter='*' type="button" class="tabs__title tabs__active _icon-icons01">All</button>
+								<button data-filter='Seaside' type="button" class="tabs__title _icon-icons02">Seaside</button>
+								<button data-filter='Mountains' type="button" class="tabs__title _icon-icons03">Mountains</button>
+								<button data-filter='Historical' type="button" class="tabs__title _icon-icons04">Historical</button>
+								<button data-filter='Residence' type="button" class="tabs__title _icon-icons05">Residence</button>
+								<button data-filter='Forlife' type="button" class="tabs__title _icon-icons06">For life</button>
+								<button data-filter='Bigcitylife' type="button" class="tabs__title _icon-icons07">Big city
+									life</button>
+								<button data-filter='Prestige' type="button" class="tabs__title _icon-icons08">Prestige</button>
+								<button data-filter='Investment' type="button" class="tabs__title _icon-icons09">Investment</button>
+								<button data-filter='Commecial' type="button" class="tabs__title _icon-icons10">Commecial</button>
+								<button data-filter='Designer’s' type="button" class="tabs__title _icon-icons11">Designer’s</button>
+							</nav>
+						</div>
+
+						<div data-tabs-body class="tabs__content">
+							<div class="tabs__items">
+								<div data-filter='Seaside' class="tabs__item tabs__active">
+									<!-- Оболочка слайдера -->
+									<div class="tabs__slider swiper">
+										<!-- Двигающееся часть слайдера -->
+										<div class="tabs__wrapper swiper-wrapper">
+											<!-- Слайд -->
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.jpg" alt=""></picture>
+												</div>
+
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.jpg" alt=""></picture>
+												</div>
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.jpg" alt=""></picture>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide__options">
+											<div class="swiper-slide__option">Good invest</div>
+										</div>
+										<!-- Если нужна пагинация -->
+										<div class="tabs-pagination pagination"></div>
+										<!-- Если нужна навигация (влево/вправо) -->
+										<div class="swiper-buttons">
+											<button type="button" class="swiper-button-prev _icon-arrow"></button>
+											<button type="button" class="swiper-button-next _icon-arrow"></button>
+										</div>
+
+									</div>
+									<div class="tabs__body">
+										<a href="" class="tabs__label">Modern Villa 55 with Pool</a>
+										<div class="tabs__subtitle">Al Marsa Street, 66, Dubai</div>
+										<div class="tabs__info">
+											<div class="tabs__prices">
+												<div data-value="105,56" class="tabs__price">Sale:</div>
+												<div data-value="n/a" class="tabs__rent enable">Rent:</div>
+											</div>
+											<div class="tabs__buttons">
+												<button type="button" class="tabs__button active"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div data-filter='Mountains' class="tabs__item">
+									<!-- Оболочка слайдера -->
+									<div class="tabs__slider swiper">
+										<!-- Двигающееся часть слайдера -->
+										<div class="tabs__wrapper swiper-wrapper">
+											<!-- Слайд -->
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.jpg" alt=""></picture>
+												</div>
+
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.jpg" alt=""></picture>
+												</div>
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.jpg" alt=""></picture>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide__options">
+
+										</div>
+										<!-- Если нужна пагинация -->
+										<div class="tabs-pagination pagination"></div>
+										<!-- Если нужна навигация (влево/вправо) -->
+										<div class="swiper-buttons">
+											<button type="button" class="swiper-button-prev _icon-arrow"></button>
+											<button type="button" class="swiper-button-next _icon-arrow"></button>
+										</div>
+									</div>
+									<div class="tabs__body">
+										<a href="" class="tabs__label">The residence resort</a>
+										<div class="tabs__subtitle">Thalang District, Thailand, Phuket</div>
+										<div class="tabs__info">
+											<div class="tabs__prices">
+												<div data-value="105,56" class="tabs__price">Sale:</div>
+												<div data-value="n/a" class="tabs__rent enable">Rent:</div>
+											</div>
+											<div class="tabs__buttons">
+												<button type="button" class="tabs__button active"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div data-filter='Seaside' class="tabs__item">
+									<!-- Оболочка слайдера -->
+									<div class="tabs__slider swiper">
+										<!-- Двигающееся часть слайдера -->
+										<div class="tabs__wrapper swiper-wrapper">
+											<!-- Слайд -->
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/03.webp" type="image/webp"><img src="img/products/03.jpg" alt=""></picture>
+												</div>
+
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/03.webp" type="image/webp"><img src="img/products/03.jpg" alt=""></picture>
+												</div>
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/03.webp" type="image/webp"><img src="img/products/03.jpg" alt=""></picture>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide__options">
+
+										</div>
+										<!-- Если нужна пагинация -->
+										<div class="tabs-pagination pagination"></div>
+										<!-- Если нужна навигация (влево/вправо) -->
+										<div class="swiper-buttons">
+											<button type="button" class="swiper-button-prev _icon-arrow"></button>
+											<button type="button" class="swiper-button-next _icon-arrow"></button>
+										</div>
+									</div>
+									<div class="tabs__body">
+										<a href="" class="tabs__label">Villa Beyond-Namaste</a>
+										<div class="tabs__subtitle">Bang Thao, Thailand, Phuket</div>
+										<div class="tabs__info">
+											<div class="tabs__prices">
+												<div data-value="105,56" class="tabs__price">Sale:</div>
+												<div data-value="3,7" class="tabs__rent enable">Rent:</div>
+											</div>
+											<div class="tabs__buttons">
+												<button type="button" class="tabs__button active"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div data-filter='Mountains' class="tabs__item">
+									<!-- Оболочка слайдера -->
+									<div class="tabs__slider swiper">
+										<!-- Двигающееся часть слайдера -->
+										<div class="tabs__wrapper swiper-wrapper">
+											<!-- Слайд -->
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/04.webp" type="image/webp"><img src="img/products/04.jpg" alt=""></picture>
+												</div>
+
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/04.webp" type="image/webp"><img src="img/products/04.jpg" alt=""></picture>
+												</div>
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/04.webp" type="image/webp"><img src="img/products/04.jpg" alt=""></picture>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide__options">
+
+										</div>
+										<!-- Если нужна пагинация -->
+										<div class="tabs-pagination pagination"></div>
+										<!-- Если нужна навигация (влево/вправо) -->
+										<div class="swiper-buttons">
+											<button type="button" class="swiper-button-prev _icon-arrow"></button>
+											<button type="button" class="swiper-button-next _icon-arrow"></button>
+										</div>
+									</div>
+									<div class="tabs__body">
+										<a href="" class="tabs__label">The Waves Tower A</a>
+										<div class="tabs__subtitle">The Waves, Dubai Marina, Dubai</div>
+										<div class="tabs__info">
+											<div class="tabs__prices">
+												<div data-value="105,56" class="tabs__price">Sale:</div>
+												<div data-value="2,5" class="tabs__rent enable">Rent:</div>
+											</div>
+											<div class="tabs__buttons">
+												<button type="button" class="tabs__button active"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div data-filter='Seaside' class="tabs__item">
+									<!-- Оболочка слайдера -->
+									<div class="tabs__slider swiper">
+										<!-- Двигающееся часть слайдера -->
+										<div class="tabs__wrapper swiper-wrapper">
+											<!-- Слайд -->
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/05.webp" type="image/webp"><img src="img/products/05.jpg" alt=""></picture>
+												</div>
+
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/05.webp" type="image/webp"><img src="img/products/05.jpg" alt=""></picture>
+												</div>
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/05.webp" type="image/webp"><img src="img/products/05.jpg" alt=""></picture>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide__options">
+
+										</div>
+										<!-- Если нужна пагинация -->
+										<div class="tabs-pagination pagination"></div>
+										<!-- Если нужна навигация (влево/вправо) -->
+										<div class="swiper-buttons">
+											<button type="button" class="swiper-button-prev _icon-arrow"></button>
+											<button type="button" class="swiper-button-next _icon-arrow"></button>
+										</div>
+									</div>
+									<div class="tabs__body">
+										<a href="" class="tabs__label">Dubai Hills Estate</a>
+										<div class="tabs__subtitle">The Waves, Dubai Marina, Dubai</div>
+										<div class="tabs__info">
+											<div class="tabs__prices">
+												<div data-value="105,56" class="tabs__price">Sale:</div>
+												<div data-value="n/a" class="tabs__rent enable">Rent:</div>
+											</div>
+											<div class="tabs__buttons">
+												<button type="button" class="tabs__button active"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div data-filter='Mountains' class="tabs__item">
+									<!-- Оболочка слайдера -->
+									<div class="tabs__slider swiper">
+										<!-- Двигающееся часть слайдера -->
+										<div class="tabs__wrapper swiper-wrapper">
+											<!-- Слайд -->
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/06.webp" type="image/webp"><img src="img/products/06.jpg" alt=""></picture>
+												</div>
+
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/06.webp" type="image/webp"><img src="img/products/06.jpg" alt=""></picture>
+												</div>
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/06.webp" type="image/webp"><img src="img/products/06.jpg" alt=""></picture>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide__options">
+										</div>
+										<!-- Если нужна пагинация -->
+										<div class="tabs-pagination pagination"></div>
+										<!-- Если нужна навигация (влево/вправо) -->
+										<div class="swiper-buttons">
+											<button type="button" class="swiper-button-prev _icon-arrow"></button>
+											<button type="button" class="swiper-button-next _icon-arrow"></button>
+										</div>
+									</div>
+									<div class="tabs__body">
+										<a href="" class="tabs__label">Ava by Omniyat Penthouse</a>
+										<div class="tabs__subtitle">Ava by Omniyat, Palm Jumeirah, Dubai</div>
+										<div class="tabs__info">
+											<div class="tabs__prices">
+												<div data-value="105,56" class="tabs__price">Sale:</div>
+												<div data-value="3,7" class="tabs__rent enable">Rent:</div>
+											</div>
+											<div class="tabs__buttons">
+												<button type="button" class="tabs__button active"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div data-filter='Historical' class="tabs__item">
+									<!-- Оболочка слайдера -->
+									<div class="tabs__slider swiper">
+										<!-- Двигающееся часть слайдера -->
+										<div class="tabs__wrapper swiper-wrapper">
+											<!-- Слайд -->
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/07.webp" type="image/webp"><img src="img/products/07.jpg" alt=""></picture>
+												</div>
+
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/07.webp" type="image/webp"><img src="img/products/07.jpg" alt=""></picture>
+												</div>
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/07.webp" type="image/webp"><img src="img/products/07.jpg" alt=""></picture>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide__options">
+
+										</div>
+										<!-- Если нужна пагинация -->
+										<div class="tabs-pagination pagination"></div>
+										<!-- Если нужна навигация (влево/вправо) -->
+										<div class="swiper-buttons">
+											<button type="button" class="swiper-button-prev _icon-arrow"></button>
+											<button type="button" class="swiper-button-next _icon-arrow"></button>
+										</div>
+									</div>
+									<div class="tabs__body">
+										<a href="" class="tabs__label">Elite Royal Apartment</a>
+										<div class="tabs__subtitle">3 Villas, Jumeirah, Dubai</div>
+										<div class="tabs__info">
+											<div class="tabs__prices">
+												<div data-value="105,56" class="tabs__price">Sale:</div>
+												<div data-value="2,5" class="tabs__rent enable">Rent:</div>
+											</div>
+											<div class="tabs__buttons">
+												<button type="button" class="tabs__button active"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div data-filter='Residence' class="tabs__item">
+									<!-- Оболочка слайдера -->
+									<div class="tabs__slider swiper">
+										<!-- Двигающееся часть слайдера -->
+										<div class="tabs__wrapper swiper-wrapper">
+											<!-- Слайд -->
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/08.webp" type="image/webp"><img src="img/products/08.jpg" alt=""></picture>
+												</div>
+
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/08.webp" type="image/webp"><img src="img/products/08.jpg" alt=""></picture>
+												</div>
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/08.webp" type="image/webp"><img src="img/products/08.jpg" alt=""></picture>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide__options">
+
+										</div>
+										<!-- Если нужна пагинация -->
+										<div class="tabs-pagination pagination"></div>
+										<!-- Если нужна навигация (влево/вправо) -->
+										<div class="swiper-buttons">
+											<button type="button" class="swiper-button-prev _icon-arrow"></button>
+											<button type="button" class="swiper-button-next _icon-arrow"></button>
+										</div>
+									</div>
+									<div class="tabs__body">
+										<a href="" class="tabs__label">Damac Hills Villa Cavalli</a>
+										<div class="tabs__subtitle">Lagoons, Dubai</div>
+										<div class="tabs__info">
+											<div class="tabs__prices">
+												<div data-value="105,56" class="tabs__price">Sale:</div>
+												<div data-value="n/a" class="tabs__rent enable">Rent:</div>
+											</div>
+											<div class="tabs__buttons">
+												<button type="button" class="tabs__button active"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div data-filter='Forlife' class="tabs__item">
+									<!-- Оболочка слайдера -->
+									<div class="tabs__slider swiper">
+										<!-- Двигающееся часть слайдера -->
+										<div class="tabs__wrapper swiper-wrapper">
+											<!-- Слайд -->
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/09.webp" type="image/webp"><img src="img/products/09.jpg" alt=""></picture>
+												</div>
+
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/09.webp" type="image/webp"><img src="img/products/09.jpg" alt=""></picture>
+												</div>
+											</div>
+											<div class="tabs__slide swiper-slide">
+												<div class="swiper-slide__img">
+													<picture><source srcset="img/products/09.webp" type="image/webp"><img src="img/products/09.jpg" alt=""></picture>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide__options">
+										</div>
+										<!-- Если нужна пагинация -->
+										<div class="tabs-pagination pagination"></div>
+										<!-- Если нужна навигация (влево/вправо) -->
+										<div class="swiper-buttons">
+											<button type="button" class="swiper-button-prev _icon-arrow"></button>
+											<button type="button" class="swiper-button-next _icon-arrow"></button>
+										</div>
+									</div>
+									<div class="tabs__body">
+										<a href="" class="tabs__label">Two Sophisticated Appartmemts</a>
+										<div class="tabs__subtitle">The Waves, Dubai Marina, Dubai</div>
+										<div class="tabs__info">
+											<div class="tabs__prices">
+												<div data-value="105,56" class="tabs__price">Sale:</div>
+												<div data-value="3,7" class="tabs__rent enable">Rent:</div>
+											</div>
+											<div class="tabs__buttons">
+												<button type="button" class="tabs__button active"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+												<button type="button" class="tabs__button"></button>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button type="button" class="page__tel tel">
+				<picture><source srcset="img/products/tel.webp" type="image/webp"><img src="img/products/tel.png" alt=""></picture>
+			</button>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__touch"></div>
+				<div class="popup__header">
+					<div class="popup__title">Filter</div>
+					<button data-close type="button" class="popup__close"></button>
+				</div>
+
+				<form action="#" data-one-select class="popup__filter filter">
+					<div class="filter__title">Sort by</div>
+					<select name="form[]" class="filter__select">
+						<option data-class="placeholder" selected value="">Choose selection</option>
+						<option value="2">Пункт №1</option>
+						<option value="3">Пункт №2</option>
+						<option value="4">Пункт №3</option>
+					</select>
+					<div class="filter__title">Choose country</div>
+					<select name="form[]" class="filter__select">
+						<option data-class="placeholder" selected value="">Choose selection</option>
+						<option value="2">Пункт №1</option>
+						<option value="3">Пункт №2</option>
+						<option value="4">Пункт №3</option>
+					</select>
+					<div class="filter__title">Choose city</div>
+					<select name="form[]" class="filter__select">
+						<option data-class="placeholder" selected value="">Choose selection</option>
+						<option value="2">Пункт №1</option>
+						<option value="3">Пункт №2</option>
+						<option value="4">Пункт №3</option>
+					</select>
+					<div class="filter__title">Select type of property</div>
+					<select multiple name="form[]" class="filter__select">
+						<option data-class="placeholder" selected value="">Multiple Choice</option>
+						<option value="2">Пункт №1</option>
+						<option value="3">Пункт №2</option>
+						<option value="4">Пункт №3</option>
+					</select>
+					<div class="filter__checkbox checkbox">
+						<div class="checkbox__inp">
+							<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+							<label for="c_1" class="checkbox__label"><span class="checkbox__text">Apartaments</span></label>
+						</div>
+						<div class="checkbox__inp">
+							<input id="c_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="2" name="form[]">
+							<label for="c_2" class="checkbox__label"><span class="checkbox__text">Islands</span></label>
+						</div>
+						<div class="checkbox__inp">
+							<input id="c_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="3" name="form[]">
+							<label for="c_3" class="checkbox__label"><span class="checkbox__text">Villas</span></label>
+						</div>
+						<div class="checkbox__inp">
+							<input id="c_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="4" name="form[]">
+							<label for="c_4" class="checkbox__label"><span class="checkbox__text">Houses</span></label>
+						</div>
+						<div class="checkbox__inp">
+							<input id="c_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="5" name="form[]">
+							<label for="c_5" class="checkbox__label"><span class="checkbox__text">Hotels</span></label>
+						</div>
+						<div class="checkbox__inp">
+							<input id="c_6" data-error="Ошибка" class="checkbox__input" type="checkbox" value="6" name="form[]">
+							<label for="c_6" class="checkbox__label"><span class="checkbox__text">Chalets</span></label>
+						</div>
+					</div>
+					<div class="filter__title">Price range (BTC)</div>
+					<div id="range" class="filter__range"></div>
+					<div class="filter__form">
+						<div class="filter__inputs">
+							<input value="0" autocomplete="off" type="text" placeholder="0.99" name="form[]" class="filter__input filter__inputs_start">
+						</div>
+						<div class="filter__inputs">
+							<input value="999999" autocomplete="off" type="text" name="form[]" class="filter__input filter__inputs_end">
+						</div>
+					</div>
+					<div class="checkbox__inp checkbox__inp_once">
+						<input id="c_7" data-error="Ошибка" class="checkbox__input" type="checkbox" value="6" name="form[]">
+						<label for="c_7" class="checkbox__label"><span class="checkbox__text">I don’t care</span></label>
+					</div>
+					<div class="filter__title">Year of construction</div>
+					<div id="range2" class="filter__range"></div>
+					<div class="filter__form">
+						<div class="filter__inputs">
+							<input data-rangeFrom2 value="1900" autocomplete="off" type="text" name="form[]" class="filter__input">
+						</div>
+						<div class="filter__inputs">
+							<input data-rangeTo2 value="2023" autocomplete="off" type="text" name="form[]" class="filter__input">
+						</div>
+					</div>
+					<div class="checkbox__inp checkbox__inp_twice">
+						<input id="c_8" data-error="Ошибка" class="checkbox__input" type="checkbox" value="6" name="form[]">
+						<label for="c_8" class="checkbox__label"><span class="checkbox__text">Ready to move in</span></label>
+					</div>
+					<div class="checkbox__inp checkbox__inp_third">
+						<input id="c_9" data-error="Ошибка" class="checkbox__input" type="checkbox" value="6" name="form[]">
+						<label for="c_9" class="checkbox__label"><span class="checkbox__text">Still being built</span></label>
+					</div>
+					<div class="filter__title">Square (m )</div>
+					<div id="range3" class="filter__range"></div>
+					<div class="filter__form filter__form_last">
+						<div class="filter__inputs">
+							<input data-rangeFrom3 autocomplete="off" value="30" type="text" name="form[]" class="filter__input filter__inputs_start">
+						</div>
+						<div class="filter__inputs">
+							<input data-rangeTo3 autocomplete="off" value="500" type="text" name="form[]" class="filter__input filter__inputs_end">
+						</div>
+					</div>
+					<div class="filter__title">Bedrooms</div>
+					<div class="filter__quantity quantity">
+						<div class="quantity__button quantity__button_plus _icon-plus"></div>
+						<div class="quantity__input"><input autocomplete="off" type="text" name="form[]" value="1"></div>
+						<div class="quantity__button quantity__button_minus _icon-minus"></div>
+					</div>
+					<button type="button" class="filter__confirm">Confirm</button>
+					<button type="button" class="filter__clear">Clear all information</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230411190917"></script>
+</body>
+
+</html>
